@@ -1,5 +1,5 @@
 let datos = {};
-const url = "https://c-contre.github.io/Dicalabria-Pizza/db.json/MENU";
+const url = "https://c-contre.github.io/Dicalabria-Pizza/db.json";
 
 
 
@@ -18,7 +18,7 @@ function llamarDb(url) {
   fetch(url)
     .then((resp) => resp.json())
     .then((dato) => {
-      const data = dato;
+      const data = dato.MENU;
       for (const key in data) {
         console.log(key)
         const mainSeccion = document.createElement("MainSection");
