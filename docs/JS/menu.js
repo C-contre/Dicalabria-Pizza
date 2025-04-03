@@ -1,6 +1,5 @@
 let datos = {};
-// const url = "https://charlymil979.github.io/diCalabria/db.json";
-const url = "http://localhost:5550/MENU";
+const url = "https://c-contre.github.io/Dicalabria-Pizza/db.json/MENU";
 
 
 
